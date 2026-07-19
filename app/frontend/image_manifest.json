@@ -1,0 +1,65 @@
+{
+  "status": "success",
+  "results": [
+    {
+      "status": "success",
+      "filename": "hero-banner-luxury-shopping.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj4zycaiza/hero-banner-luxury-shopping.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj4zycaiza/hero-banner-luxury-shopping.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj4zycaiza/hero-banner-luxury-shopping.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-electronics.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5iqcaizq/category-electronics.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5iqcaizq/category-electronics.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5iqcaizq/category-electronics.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-fashion.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5vicai2a/category-fashion.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5vicai2a/category-fashion.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj5vicai2a/category-fashion.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-home-living.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6cicaiyq/category-home-living.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6cicaiyq/category-home-living.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6cicaiyq/category-home-living.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-beauty.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6pacaiza/category-beauty.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6pacaiza/category-beauty.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj6pacaiza/category-beauty.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-sports-fitness.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj63ycai2q/category-sports-fitness.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj63ycai2q/category-sports-fitness.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj63ycai2q/category-sports-fitness.png"
+    },
+    {
+      "status": "success",
+      "filename": "category-books-media.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7kqcaizq/category-books-media.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7kqcaizq/category-books-media.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7kqcaizq/category-books-media.png"
+    },
+    {
+      "status": "success",
+      "filename": "promo-banner-sale.jpg",
+      "url": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7xicai2a/promo-banner-sale.png",
+      "path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7xicai2a/promo-banner-sale.png",
+      "absolute_path": "https://mgx-backend-cdn.metadl.com/generate/images/1423433/2026-07-13/smrj7xicai2a/promo-banner-sale.png"
+    }
+  ],
+  "success_count": 8,
+  "failed_count": 0,
+  "running_count": 0,
+  "message": "Generated 8/8 images total"
+}

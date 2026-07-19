@@ -1,0 +1,78 @@
+{
+    "title": "products",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string",
+            "maxLength": 200
+        },
+        "slug": {
+            "type": "string",
+            "maxLength": 200
+        },
+        "description": {
+            "type": "string"
+        },
+        "price": {
+            "type": "number"
+        },
+        "original_price": {
+            "type": "number"
+        },
+        "category_id": {
+            "type": "integer"
+        },
+        "image_url": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "images": {
+            "type": "string"
+        },
+        "brand": {
+            "type": "string",
+            "maxLength": 100
+        },
+        "rating": {
+            "type": "number",
+            "default": 0
+        },
+        "review_count": {
+            "type": "integer",
+            "default": 0
+        },
+        "stock": {
+            "type": "integer",
+            "default": 100
+        },
+        "is_featured": {
+            "type": "boolean",
+            "default": false
+        },
+        "is_trending": {
+            "type": "boolean",
+            "default": false
+        },
+        "colors": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "sizes": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "tags": {
+            "type": "string",
+            "maxLength": 500
+        }
+    },
+    "required": [
+        "name",
+        "slug",
+        "price",
+        "category_id"
+    ]
+}

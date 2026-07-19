@@ -1,0 +1,30 @@
+{
+    "title": "reviews",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "user_id": {
+            "type": "string"
+        },
+        "product_id": {
+            "type": "integer"
+        },
+        "rating": {
+            "type": "integer"
+        },
+        "comment": {
+            "type": "string"
+        },
+        "reviewer_name": {
+            "type": "string",
+            "maxLength": 100
+        }
+    },
+    "required": [
+        "user_id",
+        "product_id",
+        "rating"
+    ]
+}

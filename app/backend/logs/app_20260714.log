@@ -1,0 +1,226 @@
+2026-07-14 08:01:06,510 - main - INFO - === Logging system initialized ===
+2026-07-14 08:01:06,511 - main - INFO - Log file: logs/app_20260714.log
+2026-07-14 08:01:06,511 - main - INFO - Log level: DEBUG
+2026-07-14 08:01:06,511 - main - INFO - Log date: 20260714
+2026-07-14 08:01:19,322 - main - INFO - Included router: routers.aihub.router
+2026-07-14 08:01:19,529 - main - INFO - Included router: routers.auth.router
+2026-07-14 08:01:19,655 - main - INFO - Included router: routers.cart_items.router
+2026-07-14 08:01:19,729 - main - INFO - Included router: routers.categories.router
+2026-07-14 08:01:19,747 - main - INFO - Included router: routers.health.router
+2026-07-14 08:01:19,838 - main - INFO - Included router: routers.order_items.router
+2026-07-14 08:01:19,932 - main - INFO - Included router: routers.orders.router
+2026-07-14 08:01:20,544 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-14 08:01:20,549 - main - INFO - Included router: routers.payments.router
+2026-07-14 08:01:20,666 - main - INFO - Included router: routers.products.router
+2026-07-14 08:01:20,723 - main - INFO - Included router: routers.reviews.router
+2026-07-14 08:01:20,756 - main - INFO - Included router: routers.settings.router
+2026-07-14 08:01:20,833 - main - INFO - Included router: routers.storage.router
+2026-07-14 08:01:20,874 - main - INFO - Included router: routers.user.router
+2026-07-14 08:01:20,928 - main - INFO - Included router: routers.wishlists.router
+2026-07-14 08:01:20,929 - main - INFO - === Application startup initiated ===
+2026-07-14 08:01:20,930 - services.database - INFO - Ignore creating tables
+2026-07-14 08:01:20,930 - services.mock_data - INFO - Ignore initialize data
+2026-07-14 08:01:20,930 - services.auth - INFO - Ignore initialize admin
+2026-07-14 08:01:20,930 - main - INFO - === Application startup completed successfully ===
+2026-07-14 08:02:34,955 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-07-14 08:02:34,975 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:02:34,975 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-07-14 08:02:34,975 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-07-14 08:02:34,975 - core.database - INFO - Starting database initialization...
+2026-07-14 08:02:34,975 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-14 08:02:34,976 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-14 08:02:34,976 - core.database - INFO - Creating async database engine...
+2026-07-14 08:02:34,976 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-14 08:02:34,977 - core.database - INFO - Database engine created successfully
+2026-07-14 08:02:34,977 - core.database - INFO - Creating async session maker...
+2026-07-14 08:02:34,977 - core.database - INFO - Async session maker created successfully
+2026-07-14 08:02:34,977 - core.database - INFO - Database connection initialized successfully
+2026-07-14 08:02:34,977 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-14 08:02:34,977 - core.database - INFO - 🔧 Starting table creation...
+2026-07-14 08:02:35,009 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:02:35,009 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:02:35,010 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:02:35,012 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:02:35,012 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:02:35,012 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:02:36,402 - routers.products - DEBUG - Found 13 productss
+2026-07-14 08:02:36,403 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.3916s
+2026-07-14 08:02:36,404 - routers.products - DEBUG - Found 9 productss
+2026-07-14 08:02:36,405 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.3955s
+2026-07-14 08:02:36,787 - core.database - INFO - Tables initialized successfully
+2026-07-14 08:02:36,788 - core.database - DEBUG - [DB_OP] Create tables completed in 1.8100s
+2026-07-14 08:02:36,851 - core.database - INFO - Lazy database initialization completed successfully
+2026-07-14 08:02:36,851 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.8761s
+2026-07-14 08:02:36,851 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-14 08:02:37,421 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-14 08:02:37,422 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.4468s
+2026-07-14 08:03:38,064 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-07-14 08:03:38,066 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:38,066 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:03:38,066 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-14 08:03:38,068 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:38,068 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:03:38,068 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:03:38,069 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:38,070 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:03:38,070 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:03:38,449 - routers.products - DEBUG - Found 13 productss
+2026-07-14 08:03:38,450 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.3806s
+2026-07-14 08:03:38,638 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-14 08:03:38,638 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5725s
+2026-07-14 08:03:38,639 - routers.products - DEBUG - Found 9 productss
+2026-07-14 08:03:38,640 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5718s
+2026-07-14 08:03:41,312 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:41,313 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-07-14 08:03:41,313 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:03:41,320 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:41,320 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-07-14 08:03:41,320 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:03:41,322 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-07-14 08:03:41,322 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-07-14 08:03:41,498 - core.auth - DEBUG - Authentication token validated for user hash: 599de071
+2026-07-14 08:03:41,500 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:03:41,500 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:03:41,500 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-14 08:03:41,816 - routers.products - DEBUG - Found 13 productss
+2026-07-14 08:03:41,817 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5043s
+2026-07-14 08:03:41,817 - routers.products - DEBUG - Found 9 productss
+2026-07-14 08:03:41,818 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.4985s
+2026-07-14 08:03:42,008 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-14 08:03:42,009 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.5088s
+2026-07-14 08:03:58,846 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-14 08:03:59,044 - core.database - INFO - Database connection closed and engine disposed
+2026-07-14 08:03:59,045 - services.database - INFO - Database connections closed
+2026-07-14 08:03:59,045 - services.database - DEBUG - [DB_OP] Database close completed in 0.1988s
+2026-07-14 08:04:11,940 - main - INFO - === Logging system initialized ===
+2026-07-14 08:04:11,940 - main - INFO - Log file: logs/app_20260714.log
+2026-07-14 08:04:11,940 - main - INFO - Log level: DEBUG
+2026-07-14 08:04:11,941 - main - INFO - Log date: 20260714
+2026-07-14 08:04:12,651 - main - INFO - Included router: routers.aihub.router
+2026-07-14 08:04:12,666 - main - INFO - Included router: routers.auth.router
+2026-07-14 08:04:12,748 - main - INFO - Included router: routers.cart_items.router
+2026-07-14 08:04:12,778 - main - INFO - Included router: routers.categories.router
+2026-07-14 08:04:12,779 - main - INFO - Included router: routers.health.router
+2026-07-14 08:04:12,812 - main - INFO - Included router: routers.order_items.router
+2026-07-14 08:04:12,854 - main - INFO - Included router: routers.orders.router
+2026-07-14 08:04:12,876 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-14 08:04:12,882 - main - INFO - Included router: routers.payments.router
+2026-07-14 08:04:12,915 - main - INFO - Included router: routers.products.router
+2026-07-14 08:04:12,944 - main - INFO - Included router: routers.reviews.router
+2026-07-14 08:04:12,955 - main - INFO - Included router: routers.settings.router
+2026-07-14 08:04:12,980 - main - INFO - Included router: routers.storage.router
+2026-07-14 08:04:12,985 - main - INFO - Included router: routers.user.router
+2026-07-14 08:04:13,011 - main - INFO - Included router: routers.wishlists.router
+2026-07-14 08:04:13,012 - main - INFO - === Application startup initiated ===
+2026-07-14 08:04:13,012 - services.database - INFO - Ignore creating tables
+2026-07-14 08:04:13,012 - services.mock_data - INFO - Ignore initialize data
+2026-07-14 08:04:13,012 - services.auth - INFO - Ignore initialize admin
+2026-07-14 08:04:13,012 - main - INFO - === Application startup completed successfully ===
+2026-07-14 08:05:11,318 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-14 08:05:11,319 - services.database - INFO - Database connections closed
+2026-07-14 08:05:11,319 - services.database - DEBUG - [DB_OP] Database close completed in 0.0007s
+2026-07-14 08:05:24,640 - main - INFO - === Logging system initialized ===
+2026-07-14 08:05:24,640 - main - INFO - Log file: logs/app_20260714.log
+2026-07-14 08:05:24,640 - main - INFO - Log level: DEBUG
+2026-07-14 08:05:24,640 - main - INFO - Log date: 20260714
+2026-07-14 08:05:25,363 - main - INFO - Included router: routers.aihub.router
+2026-07-14 08:05:25,378 - main - INFO - Included router: routers.auth.router
+2026-07-14 08:05:25,453 - main - INFO - Included router: routers.cart_items.router
+2026-07-14 08:05:25,480 - main - INFO - Included router: routers.categories.router
+2026-07-14 08:05:25,481 - main - INFO - Included router: routers.health.router
+2026-07-14 08:05:25,511 - main - INFO - Included router: routers.order_items.router
+2026-07-14 08:05:25,541 - main - INFO - Included router: routers.orders.router
+2026-07-14 08:05:25,605 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-14 08:05:25,611 - main - INFO - Included router: routers.payments.router
+2026-07-14 08:05:25,644 - main - INFO - Included router: routers.products.router
+2026-07-14 08:05:25,723 - main - INFO - Included router: routers.reviews.router
+2026-07-14 08:05:25,739 - main - INFO - Included router: routers.settings.router
+2026-07-14 08:05:25,819 - main - INFO - Included router: routers.storage.router
+2026-07-14 08:05:25,825 - main - INFO - Included router: routers.user.router
+2026-07-14 08:05:25,908 - main - INFO - Included router: routers.wishlists.router
+2026-07-14 08:05:25,910 - main - INFO - === Application startup initiated ===
+2026-07-14 08:05:25,910 - services.database - INFO - Ignore creating tables
+2026-07-14 08:05:25,910 - services.mock_data - INFO - Ignore initialize data
+2026-07-14 08:05:25,910 - services.auth - INFO - Ignore initialize admin
+2026-07-14 08:05:25,910 - main - INFO - === Application startup completed successfully ===
+2026-07-14 08:05:28,468 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-07-14 08:05:28,471 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,471 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-07-14 08:05:28,471 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-07-14 08:05:28,471 - core.database - INFO - Starting database initialization...
+2026-07-14 08:05:28,471 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-14 08:05:28,472 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-14 08:05:28,473 - core.database - INFO - Creating async database engine...
+2026-07-14 08:05:28,473 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-14 08:05:28,474 - core.database - INFO - Database engine created successfully
+2026-07-14 08:05:28,474 - core.database - INFO - Creating async session maker...
+2026-07-14 08:05:28,474 - core.database - INFO - Async session maker created successfully
+2026-07-14 08:05:28,474 - core.database - INFO - Database connection initialized successfully
+2026-07-14 08:05:28,474 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-14 08:05:28,474 - core.database - INFO - 🔧 Starting table creation...
+2026-07-14 08:05:28,480 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,480 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:05:28,480 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:05:28,482 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,498 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0163s
+2026-07-14 08:05:28,499 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:05:28,889 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,889 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0003s
+2026-07-14 08:05:28,890 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:05:28,892 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,892 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-07-14 08:05:28,892 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-14 08:05:28,893 - core.config - DEBUG - Read dynamic attribute jwt_secret_key from environment variable JWT_SECRET_KEY
+2026-07-14 08:05:28,893 - core.config - DEBUG - Read dynamic attribute jwt_algorithm from environment variable JWT_ALGORITHM
+2026-07-14 08:05:28,913 - core.auth - DEBUG - Authentication token validated for user hash: 599de071
+2026-07-14 08:05:28,914 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-14 08:05:28,915 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0002s
+2026-07-14 08:05:28,915 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-14 08:05:30,010 - routers.products - DEBUG - Found 13 productss
+2026-07-14 08:05:30,011 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.5289s
+2026-07-14 08:05:30,012 - routers.products - DEBUG - Found 13 productss
+2026-07-14 08:05:30,013 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1237s
+2026-07-14 08:05:30,013 - routers.products - DEBUG - Found 9 productss
+2026-07-14 08:05:30,014 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.5341s
+2026-07-14 08:05:30,015 - routers.products - DEBUG - Found 9 productss
+2026-07-14 08:05:30,015 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1007s
+2026-07-14 08:05:30,017 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-14 08:05:30,018 - core.database - DEBUG - [DB_OP] Database session cleanup after 1.1261s
+2026-07-14 08:05:30,399 - core.database - INFO - Tables initialized successfully
+2026-07-14 08:05:30,400 - core.database - DEBUG - [DB_OP] Create tables completed in 1.9256s
+2026-07-14 08:05:30,464 - core.database - INFO - Lazy database initialization completed successfully
+2026-07-14 08:05:30,464 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.9936s
+2026-07-14 08:05:30,465 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-14 08:05:31,037 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-14 08:05:31,037 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.5665s
+2026-07-14 08:06:30,801 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-14 08:06:31,347 - core.database - INFO - Database connection closed and engine disposed
+2026-07-14 08:06:31,347 - services.database - INFO - Database connections closed
+2026-07-14 08:06:31,347 - services.database - DEBUG - [DB_OP] Database close completed in 0.5463s
+2026-07-14 08:06:44,126 - main - INFO - === Logging system initialized ===
+2026-07-14 08:06:44,126 - main - INFO - Log file: logs/app_20260714.log
+2026-07-14 08:06:44,126 - main - INFO - Log level: DEBUG
+2026-07-14 08:06:44,126 - main - INFO - Log date: 20260714
+2026-07-14 08:06:44,895 - main - INFO - Included router: routers.aihub.router
+2026-07-14 08:06:44,914 - main - INFO - Included router: routers.auth.router
+2026-07-14 08:06:44,990 - main - INFO - Included router: routers.cart_items.router
+2026-07-14 08:06:45,016 - main - INFO - Included router: routers.categories.router
+2026-07-14 08:06:45,040 - main - INFO - Included router: routers.health.router
+2026-07-14 08:06:45,071 - main - INFO - Included router: routers.order_items.router
+2026-07-14 08:06:45,099 - main - INFO - Included router: routers.orders.router
+2026-07-14 08:06:45,122 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-14 08:06:45,129 - main - INFO - Included router: routers.payments.router
+2026-07-14 08:06:45,160 - main - INFO - Included router: routers.products.router
+2026-07-14 08:06:45,188 - main - INFO - Included router: routers.reviews.router
+2026-07-14 08:06:45,199 - main - INFO - Included router: routers.settings.router
+2026-07-14 08:06:45,227 - main - INFO - Included router: routers.storage.router
+2026-07-14 08:06:45,232 - main - INFO - Included router: routers.user.router
+2026-07-14 08:06:45,257 - main - INFO - Included router: routers.wishlists.router
+2026-07-14 08:06:45,258 - main - INFO - === Application startup initiated ===
+2026-07-14 08:06:45,258 - services.database - INFO - Ignore creating tables
+2026-07-14 08:06:45,259 - services.mock_data - INFO - Ignore initialize data
+2026-07-14 08:06:45,259 - services.auth - INFO - Ignore initialize admin
+2026-07-14 08:06:45,259 - main - INFO - === Application startup completed successfully ===
+2026-07-14 08:16:30,914 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-14 08:16:30,914 - services.database - INFO - Database connections closed
+2026-07-14 08:16:30,914 - services.database - DEBUG - [DB_OP] Database close completed in 0.0004s

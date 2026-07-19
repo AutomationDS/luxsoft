@@ -1,0 +1,40 @@
+{
+    "title": "orders",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "user_id": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string",
+            "maxLength": 50,
+            "default": "pending"
+        },
+        "total_amount": {
+            "type": "number"
+        },
+        "shipping_address": {
+            "type": "string"
+        },
+        "payment_status": {
+            "type": "string",
+            "maxLength": 50,
+            "default": "pending"
+        },
+        "session_id": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "tracking_number": {
+            "type": "string",
+            "maxLength": 200
+        }
+    },
+    "required": [
+        "user_id",
+        "total_amount"
+    ]
+}

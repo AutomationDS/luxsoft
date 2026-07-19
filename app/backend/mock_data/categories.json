@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Electronics",
+        "slug": "electronics",
+        "description": "Latest gadgets, smartphones, laptops, and smart home devices",
+        "image_url": "/images/Electronics.jpg",
+        "icon": "Laptop",
+        "display_order": 1
+    },
+    {
+        "name": "Fashion",
+        "slug": "fashion",
+        "description": "Trendy clothing, accessories, and designer wear for all occasions",
+        "image_url": "/images/Fashion.jpg",
+        "icon": "Shirt",
+        "display_order": 2
+    },
+    {
+        "name": "Home & Living",
+        "slug": "home-living",
+        "description": "Modern furniture, decor, and essentials for your dream home",
+        "image_url": "/images/HomeLiving.jpg",
+        "icon": "Home",
+        "display_order": 3
+    },
+    {
+        "name": "Beauty",
+        "slug": "beauty",
+        "description": "Premium skincare, makeup, and wellness products",
+        "image_url": "/images/Beauty.jpg",
+        "icon": "Sparkles",
+        "display_order": 4
+    },
+    {
+        "name": "Sports & Fitness",
+        "slug": "sports-fitness",
+        "description": "Athletic gear, equipment, and activewear for peak performance",
+        "image_url": "/images/Sports.jpg",
+        "icon": "Dumbbell",
+        "display_order": 5
+    },
+    {
+        "name": "Books & Media",
+        "slug": "books-media",
+        "description": "Bestsellers, audiobooks, and digital media collections",
+        "image_url": "/images/Books.jpg",
+        "icon": "BookOpen",
+        "display_order": 6
+    }
+]

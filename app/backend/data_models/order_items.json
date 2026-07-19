@@ -1,0 +1,47 @@
+{
+    "title": "order_items",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "user_id": {
+            "type": "string"
+        },
+        "order_id": {
+            "type": "integer"
+        },
+        "product_id": {
+            "type": "integer"
+        },
+        "product_name": {
+            "type": "string",
+            "maxLength": 200
+        },
+        "product_image": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "quantity": {
+            "type": "integer"
+        },
+        "price": {
+            "type": "number"
+        },
+        "color": {
+            "type": "string",
+            "maxLength": 50
+        },
+        "size": {
+            "type": "string",
+            "maxLength": 50
+        }
+    },
+    "required": [
+        "user_id",
+        "order_id",
+        "product_id",
+        "quantity",
+        "price"
+    ]
+}

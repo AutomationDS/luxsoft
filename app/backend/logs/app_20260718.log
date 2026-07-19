@@ -1,0 +1,486 @@
+2026-07-18 02:29:59,397 - main - INFO - === Logging system initialized ===
+2026-07-18 02:29:59,397 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 02:29:59,397 - main - INFO - Log level: DEBUG
+2026-07-18 02:29:59,397 - main - INFO - Log date: 20260718
+2026-07-18 02:30:01,309 - main - INFO - Included router: routers.aihub.router
+2026-07-18 02:30:01,316 - main - INFO - Included router: routers.auth.router
+2026-07-18 02:30:01,356 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 02:30:01,374 - main - INFO - Included router: routers.categories.router
+2026-07-18 02:30:01,375 - main - INFO - Included router: routers.health.router
+2026-07-18 02:30:01,398 - main - INFO - Included router: routers.order_items.router
+2026-07-18 02:30:01,414 - main - INFO - Included router: routers.orders.router
+2026-07-18 02:30:03,108 - main - WARNING - Failed to import module 'routers.payments': 'Settings' object has no attribute 'stripe_secret_key'
+2026-07-18 02:30:03,131 - main - INFO - Included router: routers.products.router
+2026-07-18 02:30:03,149 - main - INFO - Included router: routers.reviews.router
+2026-07-18 02:30:03,155 - main - INFO - Included router: routers.settings.router
+2026-07-18 02:30:03,167 - main - INFO - Included router: routers.storage.router
+2026-07-18 02:30:03,169 - main - INFO - Included router: routers.user.router
+2026-07-18 02:30:03,182 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 02:30:03,183 - main - INFO - === Application startup initiated ===
+2026-07-18 02:30:03,183 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 02:30:03,183 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 02:30:03,183 - core.database - INFO - Starting database initialization...
+2026-07-18 02:30:03,183 - services.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'database_url'
+2026-07-18 02:47:41,540 - main - INFO - === Logging system initialized ===
+2026-07-18 02:47:41,540 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 02:47:41,540 - main - INFO - Log level: DEBUG
+2026-07-18 02:47:41,540 - main - INFO - Log date: 20260718
+2026-07-18 02:47:41,870 - main - INFO - Included router: routers.aihub.router
+2026-07-18 02:47:41,876 - main - INFO - Included router: routers.auth.router
+2026-07-18 02:47:41,905 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 02:47:41,915 - main - INFO - Included router: routers.categories.router
+2026-07-18 02:47:41,915 - main - INFO - Included router: routers.health.router
+2026-07-18 02:47:41,926 - main - INFO - Included router: routers.order_items.router
+2026-07-18 02:47:41,937 - main - INFO - Included router: routers.orders.router
+2026-07-18 02:47:42,094 - main - WARNING - Failed to import module 'routers.payments': 'Settings' object has no attribute 'stripe_secret_key'
+2026-07-18 02:47:42,107 - main - INFO - Included router: routers.products.router
+2026-07-18 02:47:42,117 - main - INFO - Included router: routers.reviews.router
+2026-07-18 02:47:42,122 - main - INFO - Included router: routers.settings.router
+2026-07-18 02:47:42,132 - main - INFO - Included router: routers.storage.router
+2026-07-18 02:47:42,135 - main - INFO - Included router: routers.user.router
+2026-07-18 02:47:42,145 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 02:47:42,146 - main - INFO - === Application startup initiated ===
+2026-07-18 02:47:42,146 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 02:47:42,146 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 02:47:42,146 - core.database - INFO - Starting database initialization...
+2026-07-18 02:47:42,146 - services.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'database_url'
+2026-07-18 02:55:53,503 - main - INFO - === Logging system initialized ===
+2026-07-18 02:55:53,503 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 02:55:53,503 - main - INFO - Log level: DEBUG
+2026-07-18 02:55:53,503 - main - INFO - Log date: 20260718
+2026-07-18 02:55:53,801 - main - INFO - Included router: routers.aihub.router
+2026-07-18 02:55:53,807 - main - INFO - Included router: routers.auth.router
+2026-07-18 02:55:53,832 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 02:55:53,843 - main - INFO - Included router: routers.categories.router
+2026-07-18 02:55:53,843 - main - INFO - Included router: routers.health.router
+2026-07-18 02:55:53,854 - main - INFO - Included router: routers.order_items.router
+2026-07-18 02:55:53,866 - main - INFO - Included router: routers.orders.router
+2026-07-18 02:55:53,960 - main - WARNING - Failed to import module 'routers.payments': 'Settings' object has no attribute 'stripe_secret_key'
+2026-07-18 02:55:53,972 - main - INFO - Included router: routers.products.router
+2026-07-18 02:55:53,984 - main - INFO - Included router: routers.reviews.router
+2026-07-18 02:55:53,989 - main - INFO - Included router: routers.settings.router
+2026-07-18 02:55:53,998 - main - INFO - Included router: routers.storage.router
+2026-07-18 02:55:53,999 - main - INFO - Included router: routers.user.router
+2026-07-18 02:55:54,009 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 02:55:54,013 - main - INFO - === Application startup initiated ===
+2026-07-18 02:55:54,013 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 02:55:54,013 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 02:55:54,013 - core.database - INFO - Starting database initialization...
+2026-07-18 02:55:54,013 - services.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'database_url'
+2026-07-18 02:56:14,759 - main - INFO - === Logging system initialized ===
+2026-07-18 02:56:14,759 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 02:56:14,759 - main - INFO - Log level: DEBUG
+2026-07-18 02:56:14,759 - main - INFO - Log date: 20260718
+2026-07-18 02:56:15,038 - main - INFO - Included router: routers.aihub.router
+2026-07-18 02:56:15,046 - main - INFO - Included router: routers.auth.router
+2026-07-18 02:56:15,074 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 02:56:15,086 - main - INFO - Included router: routers.categories.router
+2026-07-18 02:56:15,087 - main - INFO - Included router: routers.health.router
+2026-07-18 02:56:15,098 - main - INFO - Included router: routers.order_items.router
+2026-07-18 02:56:15,109 - main - INFO - Included router: routers.orders.router
+2026-07-18 02:56:15,196 - main - WARNING - Failed to import module 'routers.payments': 'Settings' object has no attribute 'stripe_secret_key'
+2026-07-18 02:56:15,208 - main - INFO - Included router: routers.products.router
+2026-07-18 02:56:15,218 - main - INFO - Included router: routers.reviews.router
+2026-07-18 02:56:15,222 - main - INFO - Included router: routers.settings.router
+2026-07-18 02:56:15,231 - main - INFO - Included router: routers.storage.router
+2026-07-18 02:56:15,234 - main - INFO - Included router: routers.user.router
+2026-07-18 02:56:15,245 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 02:56:15,246 - main - INFO - === Application startup initiated ===
+2026-07-18 02:56:15,246 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 02:56:15,246 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 02:56:15,246 - core.database - INFO - Starting database initialization...
+2026-07-18 02:56:15,246 - services.database - ERROR - Failed to initialize database: 'Settings' object has no attribute 'database_url'
+2026-07-18 03:00:04,576 - main - INFO - === Logging system initialized ===
+2026-07-18 03:00:04,576 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:00:04,576 - main - INFO - Log level: DEBUG
+2026-07-18 03:00:04,576 - main - INFO - Log date: 20260718
+2026-07-18 03:00:04,873 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:00:04,880 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:00:04,910 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:00:04,920 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:00:04,920 - main - INFO - Included router: routers.health.router
+2026-07-18 03:00:04,933 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:00:04,944 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:00:05,042 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:00:05,044 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:00:05,057 - main - INFO - Included router: routers.products.router
+2026-07-18 03:00:05,068 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:00:05,072 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:00:05,080 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:00:05,082 - main - INFO - Included router: routers.user.router
+2026-07-18 03:00:05,092 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:00:05,093 - main - INFO - === Application startup initiated ===
+2026-07-18 03:00:05,093 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:00:05,093 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:00:05,093 - core.database - INFO - Starting database initialization...
+2026-07-18 03:00:05,093 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:00:05,093 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:00:05,093 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:00:05,093 - core.database - INFO - Creating async database engine...
+2026-07-18 03:00:05,093 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:00:05,093 - core.database - INFO - Database engine created successfully
+2026-07-18 03:00:05,093 - core.database - INFO - Creating async session maker...
+2026-07-18 03:00:05,093 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:00:05,093 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:00:05,093 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:00:05,093 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:00:05,093 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:00:05,286 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:00:05,286 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1927s
+2026-07-18 03:00:05,287 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:00:05,287 - services.database - INFO - Database initialized successfully
+2026-07-18 03:00:05,287 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1943s
+2026-07-18 03:00:05,287 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:00:05,287 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:00:05,322 - services.mock_data - INFO - Inserted 6 mock records into categories
+2026-07-18 03:00:05,330 - services.mock_data - INFO - Inserted 10 mock records into products
+2026-07-18 03:00:05,331 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:00:05,331 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:00:05,331 - core.database - INFO - Starting database initialization...
+2026-07-18 03:00:05,331 - core.database - INFO - Database already initialized
+2026-07-18 03:00:05,331 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:00:05,331 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:00:05,331 - core.database - INFO - Tables already initialized
+2026-07-18 03:00:05,331 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:00:05,331 - services.database - INFO - Database initialized successfully
+2026-07-18 03:00:05,331 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0002s
+2026-07-18 03:00:05,331 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:00:05,331 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:00:05,331 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:01:19,835 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-07-18 03:01:19,841 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:01:19,843 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0023s
+2026-07-18 03:01:19,850 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-18 03:01:19,861 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:01:19,861 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-07-18 03:01:19,861 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-18 03:01:19,862 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:01:19,863 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-07-18 03:01:19,863 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-18 03:01:19,919 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-18 03:01:19,925 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.0842s
+2026-07-18 03:01:19,925 - routers.products - DEBUG - Found 5 productss
+2026-07-18 03:01:19,926 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.0653s
+2026-07-18 03:01:19,967 - routers.products - DEBUG - Found 8 productss
+2026-07-18 03:01:19,969 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.1067s
+2026-07-18 03:15:58,142 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-07-18 03:15:58,143 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:15:58,144 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0004s
+2026-07-18 03:15:58,147 - routers.categories - DEBUG - Querying categoriess: query={}, sort=display_order, skip=0, limit=6, fields=None
+2026-07-18 03:15:58,158 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:15:58,158 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-07-18 03:15:58,158 - routers.products - DEBUG - Querying productss: query={"is_featured":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-18 03:15:58,159 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-07-18 03:15:58,159 - core.database - DEBUG - [DB_OP] Database session created successfully in 0.0001s
+2026-07-18 03:15:58,159 - routers.products - DEBUG - Querying productss: query={"is_trending":true}, sort=None, skip=0, limit=8, fields=None
+2026-07-18 03:15:58,181 - routers.categories - DEBUG - Found 6 categoriess
+2026-07-18 03:15:58,183 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.0403s
+2026-07-18 03:15:58,184 - routers.products - DEBUG - Found 5 productss
+2026-07-18 03:15:58,184 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.0266s
+2026-07-18 03:15:58,185 - routers.products - DEBUG - Found 8 productss
+2026-07-18 03:15:58,185 - core.database - DEBUG - [DB_OP] Database session cleanup after 0.0258s
+2026-07-18 03:22:50,580 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-18 03:22:50,602 - core.database - INFO - Database connection closed and engine disposed
+2026-07-18 03:22:50,602 - services.database - INFO - Database connections closed
+2026-07-18 03:22:50,603 - services.database - DEBUG - [DB_OP] Database close completed in 0.0223s
+2026-07-18 03:22:51,307 - main - INFO - === Logging system initialized ===
+2026-07-18 03:22:51,308 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:22:51,308 - main - INFO - Log level: DEBUG
+2026-07-18 03:22:51,308 - main - INFO - Log date: 20260718
+2026-07-18 03:22:51,738 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:22:51,745 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:22:51,774 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:22:51,785 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:22:51,786 - main - INFO - Included router: routers.health.router
+2026-07-18 03:22:51,798 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:22:51,809 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:22:51,913 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:22:51,916 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:22:51,928 - main - INFO - Included router: routers.products.router
+2026-07-18 03:22:51,938 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:22:51,942 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:22:51,950 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:22:51,953 - main - INFO - Included router: routers.user.router
+2026-07-18 03:22:51,963 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:22:51,963 - main - INFO - === Application startup initiated ===
+2026-07-18 03:22:51,963 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:22:51,963 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:22:51,964 - core.database - INFO - Starting database initialization...
+2026-07-18 03:22:51,964 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:22:51,964 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:22:51,964 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:22:51,964 - core.database - INFO - Creating async database engine...
+2026-07-18 03:22:51,964 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:22:51,964 - core.database - INFO - Database engine created successfully
+2026-07-18 03:22:51,964 - core.database - INFO - Creating async session maker...
+2026-07-18 03:22:51,964 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:22:51,964 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:22:51,964 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:22:51,964 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:22:51,964 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:22:52,120 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:22:52,120 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1558s
+2026-07-18 03:22:52,120 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:22:52,121 - services.database - INFO - Database initialized successfully
+2026-07-18 03:22:52,121 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1571s
+2026-07-18 03:22:52,121 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:22:52,121 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:22:52,165 - services.mock_data - INFO - Table categories already has 6 rows; skipping mock insert
+2026-07-18 03:22:52,166 - services.mock_data - INFO - Table products already has 10 rows; skipping mock insert
+2026-07-18 03:22:52,167 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:22:52,167 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:22:52,167 - core.database - INFO - Starting database initialization...
+2026-07-18 03:22:52,167 - core.database - INFO - Database already initialized
+2026-07-18 03:22:52,167 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:22:52,167 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:22:52,167 - core.database - INFO - Tables already initialized
+2026-07-18 03:22:52,167 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:22:52,167 - services.database - INFO - Database initialized successfully
+2026-07-18 03:22:52,167 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0002s
+2026-07-18 03:22:52,167 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:22:52,167 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:22:52,167 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:25:21,328 - main - INFO - === Logging system initialized ===
+2026-07-18 03:25:21,328 - main - INFO - === Logging system initialized ===
+2026-07-18 03:25:21,328 - main - INFO - === Logging system initialized ===
+2026-07-18 03:25:21,329 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:25:21,329 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:25:21,329 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:25:21,329 - main - INFO - Log level: DEBUG
+2026-07-18 03:25:21,329 - main - INFO - Log level: DEBUG
+2026-07-18 03:25:21,329 - main - INFO - Log level: DEBUG
+2026-07-18 03:25:21,329 - main - INFO - Log date: 20260718
+2026-07-18 03:25:21,329 - main - INFO - Log date: 20260718
+2026-07-18 03:25:21,329 - main - INFO - Log date: 20260718
+2026-07-18 03:25:21,365 - main - INFO - === Logging system initialized ===
+2026-07-18 03:25:21,366 - main - INFO - Log file: logs/app_20260718.log
+2026-07-18 03:25:21,366 - main - INFO - Log level: DEBUG
+2026-07-18 03:25:21,366 - main - INFO - Log date: 20260718
+2026-07-18 03:25:21,725 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:25:21,725 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:25:21,725 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:25:21,725 - main - INFO - Included router: routers.aihub.router
+2026-07-18 03:25:21,733 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:25:21,733 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:25:21,735 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:25:21,737 - main - INFO - Included router: routers.auth.router
+2026-07-18 03:25:21,766 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:25:21,766 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:25:21,766 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:25:21,768 - main - INFO - Included router: routers.cart_items.router
+2026-07-18 03:25:21,777 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:25:21,778 - main - INFO - Included router: routers.health.router
+2026-07-18 03:25:21,780 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:25:21,780 - main - INFO - Included router: routers.health.router
+2026-07-18 03:25:21,782 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:25:21,781 - main - INFO - Included router: routers.categories.router
+2026-07-18 03:25:21,783 - main - INFO - Included router: routers.health.router
+2026-07-18 03:25:21,783 - main - INFO - Included router: routers.health.router
+2026-07-18 03:25:21,792 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:25:21,796 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:25:21,796 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:25:21,797 - main - INFO - Included router: routers.order_items.router
+2026-07-18 03:25:21,805 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:25:21,808 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:25:21,809 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:25:21,812 - main - INFO - Included router: routers.orders.router
+2026-07-18 03:25:21,920 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:25:21,919 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:25:21,919 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:25:21,919 - core.config - DEBUG - Read dynamic attribute stripe_secret_key from environment variable STRIPE_SECRET_KEY
+2026-07-18 03:25:21,922 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:25:21,922 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:25:21,923 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:25:21,923 - main - INFO - Included router: routers.payments.router
+2026-07-18 03:25:21,935 - main - INFO - Included router: routers.products.router
+2026-07-18 03:25:21,935 - main - INFO - Included router: routers.products.router
+2026-07-18 03:25:21,936 - main - INFO - Included router: routers.products.router
+2026-07-18 03:25:21,937 - main - INFO - Included router: routers.products.router
+2026-07-18 03:25:21,949 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:25:21,951 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:25:21,953 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:25:21,954 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:25:21,956 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:25:21,958 - main - INFO - Included router: routers.reviews.router
+2026-07-18 03:25:21,959 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:25:21,962 - main - INFO - Included router: routers.settings.router
+2026-07-18 03:25:21,963 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:25:21,965 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:25:21,965 - main - INFO - Included router: routers.user.router
+2026-07-18 03:25:21,967 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:25:21,969 - main - INFO - Included router: routers.user.router
+2026-07-18 03:25:21,970 - main - INFO - Included router: routers.user.router
+2026-07-18 03:25:21,971 - main - INFO - Included router: routers.storage.router
+2026-07-18 03:25:21,973 - main - INFO - Included router: routers.user.router
+2026-07-18 03:25:21,976 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:25:21,981 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:25:21,982 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:25:21,987 - main - INFO - Included router: routers.wishlists.router
+2026-07-18 03:25:22,014 - main - INFO - === Application startup initiated ===
+2026-07-18 03:25:22,014 - main - INFO - === Application startup initiated ===
+2026-07-18 03:25:22,014 - main - INFO - === Application startup initiated ===
+2026-07-18 03:25:22,014 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,014 - main - INFO - === Application startup initiated ===
+2026-07-18 03:25:22,015 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,015 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,015 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,015 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,016 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,015 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,016 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,016 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,016 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:25:22,016 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,016 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,016 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:25:22,017 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,017 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:25:22,017 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:25:22,017 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-07-18 03:25:22,017 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:25:22,017 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:25:22,018 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:25:22,018 - core.database - INFO - Creating async database engine...
+2026-07-18 03:25:22,018 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-07-18 03:25:22,018 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:25:22,019 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:25:22,019 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:25:22,019 - core.database - INFO - Creating async database engine...
+2026-07-18 03:25:22,019 - core.database - INFO - Creating async database engine...
+2026-07-18 03:25:22,019 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:25:22,020 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:25:22,020 - core.database - WARNING - Adjusted database URL driver for async compatibility
+2026-07-18 03:25:22,020 - core.database - INFO - Database engine created successfully
+2026-07-18 03:25:22,021 - core.database - INFO - Creating async session maker...
+2026-07-18 03:25:22,020 - core.database - INFO - Creating async database engine...
+2026-07-18 03:25:22,021 - core.database - INFO - Database engine created successfully
+2026-07-18 03:25:22,021 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:25:22,021 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-07-18 03:25:22,021 - core.database - INFO - Database engine created successfully
+2026-07-18 03:25:22,022 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:25:22,021 - core.database - INFO - Creating async session maker...
+2026-07-18 03:25:22,022 - core.database - INFO - Creating async session maker...
+2026-07-18 03:25:22,022 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:25:22,022 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:25:22,022 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,022 - core.database - INFO - Database engine created successfully
+2026-07-18 03:25:22,023 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:25:22,023 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:25:22,023 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,023 - core.database - INFO - Creating async session maker...
+2026-07-18 03:25:22,023 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,025 - core.database - INFO - Async session maker created successfully
+2026-07-18 03:25:22,025 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:25:22,025 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,025 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,026 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:25:22,026 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,026 - core.database - INFO - Database connection initialized successfully
+2026-07-18 03:25:22,027 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:25:22,027 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,027 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,028 - core.database - INFO - 🔧 Starting table creation...
+2026-07-18 03:25:22,161 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:25:22,161 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:25:22,161 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:25:22,162 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1387s
+2026-07-18 03:25:22,162 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1358s
+2026-07-18 03:25:22,162 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1367s
+2026-07-18 03:25:22,162 - core.database - INFO - Tables initialized successfully
+2026-07-18 03:25:22,162 - core.database - DEBUG - [DB_OP] Create tables completed in 0.1349s
+2026-07-18 03:25:22,162 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,163 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,163 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,163 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,163 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,163 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,163 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1490s
+2026-07-18 03:25:22,164 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,163 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,164 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1489s
+2026-07-18 03:25:22,164 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1488s
+2026-07-18 03:25:22,164 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.1498s
+2026-07-18 03:25:22,165 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:25:22,165 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:25:22,165 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:25:22,165 - services.mock_data - INFO - Processing mock data file categories.json for table categories
+2026-07-18 03:25:22,165 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:25:22,166 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:25:22,166 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:25:22,166 - services.mock_data - INFO - Processing mock data file products.json for table products
+2026-07-18 03:25:22,240 - services.mock_data - INFO - Table categories already has 6 rows; skipping mock insert
+2026-07-18 03:25:22,240 - services.mock_data - INFO - Table categories already has 6 rows; skipping mock insert
+2026-07-18 03:25:22,241 - services.mock_data - INFO - Table categories already has 6 rows; skipping mock insert
+2026-07-18 03:25:22,244 - services.mock_data - INFO - Table categories already has 6 rows; skipping mock insert
+2026-07-18 03:25:22,246 - services.mock_data - INFO - Table products already has 10 rows; skipping mock insert
+2026-07-18 03:25:22,247 - services.mock_data - INFO - Table products already has 10 rows; skipping mock insert
+2026-07-18 03:25:22,247 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,247 - services.mock_data - INFO - Table products already has 10 rows; skipping mock insert
+2026-07-18 03:25:22,248 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,248 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,248 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,249 - core.database - INFO - Database already initialized
+2026-07-18 03:25:22,249 - services.mock_data - INFO - Table products already has 10 rows; skipping mock insert
+2026-07-18 03:25:22,249 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,249 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,249 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,250 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,250 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,250 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,250 - core.database - INFO - Database already initialized
+2026-07-18 03:25:22,250 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,251 - services.database - DEBUG - [DB_OP] Starting database initialization
+2026-07-18 03:25:22,251 - core.database - INFO - Tables already initialized
+2026-07-18 03:25:22,251 - services.database - INFO - 🔧 Starting database initialization...
+2026-07-18 03:25:22,251 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,251 - core.database - INFO - Database already initialized
+2026-07-18 03:25:22,252 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,252 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,252 - core.database - INFO - Starting database initialization...
+2026-07-18 03:25:22,252 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,252 - core.database - INFO - Tables already initialized
+2026-07-18 03:25:22,252 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,252 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,253 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,253 - core.database - INFO - Database already initialized
+2026-07-18 03:25:22,253 - core.database - INFO - Tables already initialized
+2026-07-18 03:25:22,253 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,253 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0060s
+2026-07-18 03:25:22,253 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,253 - services.database - INFO - 🔧 Database connection initialized, now creating tables if tables not exist...
+2026-07-18 03:25:22,254 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0052s
+2026-07-18 03:25:22,254 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,254 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-07-18 03:25:22,254 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:25:22,254 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0051s
+2026-07-18 03:25:22,254 - core.database - INFO - Tables already initialized
+2026-07-18 03:25:22,254 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:25:22,254 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:25:22,254 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:25:22,255 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:25:22,255 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:25:22,254 - services.database - INFO - 🔧 Table creation completed
+2026-07-18 03:25:22,255 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:25:22,255 - services.database - INFO - Database initialized successfully
+2026-07-18 03:25:22,255 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:25:22,256 - services.database - DEBUG - [DB_OP] Database initialization completed in 0.0051s
+2026-07-18 03:25:22,256 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:25:22,256 - core.config - DEBUG - Read dynamic attribute admin_user_id from environment variable ADMIN_USER_ID
+2026-07-18 03:25:22,257 - services.auth - WARNING - Admin user ID or email not configured, skipping admin initialization
+2026-07-18 03:25:22,258 - main - INFO - === Application startup completed successfully ===
+2026-07-18 03:26:36,527 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-18 03:26:36,551 - core.database - INFO - Database connection closed and engine disposed
+2026-07-18 03:26:36,552 - services.database - INFO - Database connections closed
+2026-07-18 03:26:36,552 - services.database - DEBUG - [DB_OP] Database close completed in 0.0246s
+2026-07-18 03:26:36,567 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-18 03:26:36,568 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-18 03:26:36,582 - core.database - INFO - Database connection closed and engine disposed
+2026-07-18 03:26:36,583 - services.database - INFO - Database connections closed
+2026-07-18 03:26:36,583 - services.database - DEBUG - [DB_OP] Database close completed in 0.0165s
+2026-07-18 03:26:36,584 - services.database - DEBUG - [DB_OP] Starting database close
+2026-07-18 03:26:36,590 - core.database - INFO - Database connection closed and engine disposed
+2026-07-18 03:26:36,590 - services.database - INFO - Database connections closed
+2026-07-18 03:26:36,591 - services.database - DEBUG - [DB_OP] Database close completed in 0.0225s
+2026-07-18 03:26:36,599 - core.database - INFO - Database connection closed and engine disposed
+2026-07-18 03:26:36,599 - services.database - INFO - Database connections closed
+2026-07-18 03:26:36,600 - services.database - DEBUG - [DB_OP] Database close completed in 0.0152s
