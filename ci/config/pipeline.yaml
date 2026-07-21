@@ -1,58 +1,69 @@
 # ==========================================================
-# Enterprise Pipeline Configuration
+# Pipeline Configuration
 # ==========================================================
 
 pipeline:
-
   name: luxsoft-dev
-
-  application:
-    name: luxsoft
-    type: python
-    runtime: python
-    version: "3.12"
-
-  repository:
-    default_branch: main
-
-  workspace:
-    clean_before_build: true
-    clean_after_build: true
+  owner: DevOps Team
 
 # ==========================================================
-# Build Configuration
+# Application Configuration
+# ==========================================================
+
+application:
+  name: luxsoft
+  type: fullstack
+
+  backend:
+    language: python
+    runtime: python
+    runtime_version: "3.12"
+    source: app/backend
+    dependency_file: requirements.txt
+
+  frontend:
+    language: typescript
+    runtime: node
+    package_manager: pnpm
+    source: app/frontend
+
+  release:
+    version: "1.0.0"
+
+# ==========================================================
+# Workspace
+# ==========================================================
+
+workspace:
+  clean_before_build: true
+  clean_after_build: true
+
+# ==========================================================
+# Build
 # ==========================================================
 
 build:
-
-  dependency_file: requirements.txt
-
-  virtual_environment: true
-
-  compile:
-    enabled: true
+  backend: true
+  frontend: true
 
 # ==========================================================
-# Unit Testing
+# Testing
 # ==========================================================
 
 testing:
-
   enabled: true
-
-  framework: pytest
-
-  coverage:
-    enabled: true
+  backend:
+    framework: pytest
+    coverage: true
+  frontend:
+    enabled: false
 
 # ==========================================================
-# Static Code Analysis
+# SonarQube
 # ==========================================================
 
 sonarqube:
-
   enabled: true
-
   quality_gate: true
 
 # ==========================================================
@@ -60,28 +71,20 @@ sonarqube:
 # ==========================================================
 
 container:
-
-  build: true
-
-  registry:  ghcr.io
-
-  repository:  automationds
-
-  image_name:  luxsoft
-
-  tag:  build_number
+  enabled: true
+  registry: ghcr.io
+  repository: automationds
+  image_name: luxsoft
+  tag_strategy: build_number
 
 # ==========================================================
 # Security
 # ==========================================================
 
 security:
-
   trivy:
-
     enabled: true
-
-    fail_on:  
+    fail_on:
       critical: true
       high: false
 
@@ -90,21 +93,13 @@ security:
 # ==========================================================
 
 deployment:
-
   environment: preprod
-
   strategy: rolling
 
-  namespace:
-
-  replicas:
-
 # ==========================================================
-# Notification
+# Notifications
 # ==========================================================
 
 notification:
-
   teams: true
-
   email: false
