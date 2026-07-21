@@ -1,0 +1,18 @@
+environment:
+  name: prod
+
+deployment:
+  namespace: luxsoft-prod
+
+docker:
+  registry: docker.io
+  image_name: luxsoft
+
+build:
+  optimization: true
+
+logging:
+  level: WARN
+
+security:
+  trivy_fail_on_high: true

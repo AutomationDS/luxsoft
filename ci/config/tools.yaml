@@ -1,0 +1,39 @@
+git:
+  command: git
+  required: true
+
+python:
+  command: python3
+  required: true
+
+pip:
+  command: pip3
+  required: true
+
+node:
+  command: node
+  required: true
+
+pnpm:
+  command: pnpm
+  required: true
+
+docker:
+  command: docker
+  required: true
+
+sonar_scanner:
+  command: sonar-scanner
+  required: true
+
+trivy:
+  command: trivy
+  required: true
+
+kubectl:
+  command: kubectl
+  required: false
+
+helm:
+  command: helm
+  required: false
