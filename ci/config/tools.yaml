@@ -1,0 +1,47 @@
+# ==========================================================
+# Tool Configuration
+# ==========================================================
+
+git:
+  enabled: true
+  executable: git
+
+python:
+  enabled: true
+  executable: python3
+
+pip:
+  enabled: true
+  executable: pip3
+
+node:
+  enabled: true
+  executable: node
+
+pnpm:
+  enabled: true
+  executable: pnpm
+
+pytest:
+  enabled: true
+  executable: pytest
+
+sonarqube:
+  enabled: true
+  scanner: sonar-scanner
+
+docker:
+  enabled: true
+  executable: docker
+
+trivy:
+  enabled: true
+  executable: trivy
+
+kubectl:
+  enabled: false
+  executable: kubectl
+
+helm:
+  enabled: false
+  executable: helm
