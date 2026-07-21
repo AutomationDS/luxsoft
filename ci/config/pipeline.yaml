@@ -1,0 +1,110 @@
+# ==========================================================
+# Enterprise Pipeline Configuration
+# ==========================================================
+
+pipeline:
+
+  name: luxsoft-dev
+
+  application:
+    name: luxsoft
+    type: python
+    runtime: python
+    version: "3.12"
+
+  repository:
+    default_branch: main
+
+  workspace:
+    clean_before_build: true
+    clean_after_build: true
+
+# ==========================================================
+# Build Configuration
+# ==========================================================
+
+build:
+
+  dependency_file: requirements.txt
+
+  virtual_environment: true
+
+  compile:
+    enabled: true
+
+# ==========================================================
+# Unit Testing
+# ==========================================================
+
+testing:
+
+  enabled: true
+
+  framework: pytest
+
+  coverage:
+    enabled: true
+
+# ==========================================================
+# Static Code Analysis
+# ==========================================================
+
+sonarqube:
+
+  enabled: true
+
+  quality_gate: true
+
+# ==========================================================
+# Container
+# ==========================================================
+
+container:
+
+  build: true
+
+  registry:  ghcr.io
+
+  repository:  automationds
+
+  image_name:  luxsoft
+
+  tag:  build_number
+
+# ==========================================================
+# Security
+# ==========================================================
+
+security:
+
+  trivy:
+
+    enabled: true
+
+    fail_on:  
+      critical: true
+      high: false
+
+# ==========================================================
+# Deployment
+# ==========================================================
+
+deployment:
+
+  environment: preprod
+
+  strategy: rolling
+
+  namespace:
+
+  replicas:
+
+# ==========================================================
+# Notification
+# ==========================================================
+
+notification:
+
+  teams: true
+
+  email: false
