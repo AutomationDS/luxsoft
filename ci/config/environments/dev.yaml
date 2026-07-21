@@ -1,0 +1,18 @@
+environment:
+  name: dev
+
+deployment:
+  namespace: luxsoft-dev
+
+docker:
+  registry: docker.io
+  image_name: luxsoft
+
+build:
+  optimization: false
+
+logging:
+  level: DEBUG
+
+security:
+  trivy_fail_on_high: false

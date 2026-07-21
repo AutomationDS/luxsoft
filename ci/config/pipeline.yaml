@@ -1,0 +1,59 @@
+pipeline:
+  name: luxsoft-ci
+  type: declarative
+  timeout_minutes: 60
+  build_discard_days: 30
+  build_discard_count: 20
+  disable_concurrent_builds: true
+
+application:
+  backend:
+    path: src
+    dependency_file: requirements.txt
+
+  frontend:
+    enabled: true
+    path: app/frontend
+    package_manager: pnpm
+    package_file: package.json
+
+  release:
+    version_strategy: semantic
+
+workspace:
+  cleanup_before_build: true
+  cleanup_after_build: true
+
+build:
+  backend:
+    enabled: true
+
+  frontend:
+    enabled: true
+
+testing:
+  unit_tests: true
+  integration_tests: false
+
+sonarqube:
+  enabled: true
+  quality_gate: true
+
+container:
+  enabled: true
+  dockerfile: docker/Dockerfile
+  build_context: .
+  image_tag_strategy: build_number
+
+security:
+  trivy:
+    enabled: true
+    fail_on_high: true
+
+deployment:
+  enabled: true
+  strategy: rolling
+  smoke_test: true
+
+notification:
+  enabled: true
