@@ -1,0 +1,26 @@
+pipeline {
+//***********AGENT***************
+  agent none
+//***********GLOBAL OPTIONS******
+ options {
+    timestamps()
+    ansicolor('xterm')
+    disableConcurrentBuilds()
+    buildDiscarder(logRotator(
+        numToKeepStr: '20',
+        artifactNumToKeepStr: '10'
+    ))
+    timeout(time: 60, unit: 'MINUTES')
+    skipDefaultCheckout(true)
+
+ }
+ //************PARAMETERS*************
+Parameters {
+    choice (name:'ENVINORMENT',
+    choices:['Dev','testing','preprod'],
+    description: 'Deployment Environment'
+    )
+    
+}
+
+}
